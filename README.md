@@ -72,8 +72,3 @@ This project does not store passwords.
 
 All password analysis happens locally inside the browser for maximum privacy and security.
 
----
-
-## 👨‍💻 Author
-
-Anirudh Kaushik
