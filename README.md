@@ -77,9 +77,3 @@ All password analysis happens locally inside the browser for maximum privacy and
 ## 👨‍💻 Author
 
 Anirudh Kaushik
-
----
-
-## ⭐ Support
-
-If you like this project, give it a ⭐ on GitHub.
