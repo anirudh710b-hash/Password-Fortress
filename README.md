@@ -28,7 +28,9 @@ A modern and secure password strength analyzer built using HTML, CSS, and JavaSc
 
 ## 📸 Preview
 
-https://github.com/anirudh710b-hash/Password-Fortress/blob/6b97d3c0a5b36e326253530318dcc1a862bb4343/Screenshot%202026-05-26%20120337.png
+![Preview](https://github.com/anirudh710b-hash/Password-Fortress/blob/a3012df436c81a7afeea9435de15f87dcf20eecf/Screenshot%202026-05-26%20120337.png)
+
+---
 
 ## 📂 Project Structure
 
