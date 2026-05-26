@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+  <title>🔐 Password Fortress | Ultimate Password Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <h1>🔐 Password Fortress ⚡</h1>
+    <button id="themeToggleBtn" class="theme-toggle" aria-label="Dark/Light mode">🌙</button>
+  </div>
+  <div class="sub">Advanced entropy engine · Real-time scoring up to 100</div>
+
+  <div class="action-buttons">
+    <button id="generateBtn" class="action-btn">🎲 Generate Strong</button>
+    <button id="copyBtn" class="action-btn">📋 Copy Password</button>
+  </div>
+
+  <div class="input-group">
+    <input type="password" id="passwordInput" class="password-input" placeholder="Type or generate password" autocomplete="off">
+    <div class="input-right-buttons">
+      <button id="toggleEye" class="icon-btn">Show</button>
+    </div>
+  </div>
+
+  <div class="strength-section">
+    <div class="meter-label"><span>🔋 STRENGTH METER</span><span id="strengthPercentLabel">0%</span></div>
+    <div class="strength-bar-bg"><div id="strengthFill" class="strength-fill"></div></div>
+    <div class="verdict"><div id="strengthBadge" class="strength-text">⚡ Weak</div><div id="scoreValue" class="score-badge">Score: 0/100</div></div>
+  </div>
+
+  <div class="criteria"><h3>📋 Security checkpoints</h3>
+    <div class="criteria-grid">
+      <div class="criterion" id="crit-length"><span>🔹</span> <span>≥ 8 chars</span></div>
+      <div class="criterion" id="crit-upper"><span>🔹</span> <span>Uppercase</span></div>
+      <div class="criterion" id="crit-lower"><span>🔹</span> <span>Lowercase</span></div>
+      <div class="criterion" id="crit-digit"><span>🔹</span> <span>Digit</span></div>
+      <div class="criterion" id="crit-special"><span>🔹</span> <span>Special char</span></div>
+      <div class="criterion" id="crit-lengthBonus"><span>🔹</span> <span>≥ 12 chars</span></div>
+      <div class="criterion" id="crit-mixBonus"><span>🔹</span> <span>High complexity</span></div>
+    </div>
+  </div>
+
+  <div id="suggestionBox" class="suggestion">💡 Start typing or generate a strong password.</div>
+  <button id="resetBtn" class="reset-btn">⟳ Clear & reset</button>
+  <div class="entropy-badge" id="entropyHint">🔒 Real-time cryptographic-style strength</div>
+  <footer>🔐 Zero storage · 100% local · Uncapped scoring</footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
